@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
     entry : path.join(__dirname, 'src', 'botPage', 'bot', 'cli.js'),
     output: {
-        path    : path.resolve(__dirname, 'lib'),
+        path    : path.resolve(__dirname, 'www'),
         filename: 'index.js',
     },
     target: 'node',
